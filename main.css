@@ -1,0 +1,30 @@
+div {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h4 !important {
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "museo-slab", sans-serif;
+}
+
+
+
+.main_container {
+  margin-top: 5%;
+}
+
+a {
+  color: black;
+
+}
+p {font-family: "museo-slab", sans-serif}
+
+a:hover{
+
+  color: orange;
+}
