@@ -9,6 +9,17 @@ div {
   margin-right: 10px; */
 }
 
+
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture img {
+  width: 60%;
+}
+
 h4 !important {
   font-style: normal;
 }
@@ -49,19 +60,35 @@ footer a:hover {
   color: white;
 }
 
-.gallery {
+/* .gallery {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+} */
+
+
+
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-
-
-
 
 .gallery img {
-  width: 100%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
+
+.col {
+   flex: 0 0 calc(20% - 50px);   /* flex-basis adjustment for margin */
+   margin: 2px;
+}
+
+
 
 .unselectable {
     -webkit-touch-callout: none;
