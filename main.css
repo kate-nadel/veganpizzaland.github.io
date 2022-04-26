@@ -75,6 +75,7 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 70%;
 }
 
 .gallery img {
@@ -84,8 +85,8 @@ footer a:hover {
 }
 
 .col {
-   flex: 0 0 calc(20% - 50px);   /* flex-basis adjustment for margin */
-   margin: 2px;
+   flex: 0 0 calc(33% - 30px);   /* flex-basis adjustment for margin */
+   margin: 10px;
 }
 
 
