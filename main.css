@@ -19,12 +19,20 @@ div {
 }
 */
 
+
+.about_us {
+  width: 80%;
+
+}
+
 .links {
-  width: 60%;
+  width: 80%;
   border-width:2px;
   border-style:dotted;
   border-color:black;
 }
+
+
 
 
 .about_catering {
@@ -58,19 +66,24 @@ h4 !important {
 
 h1,h2,h3,h4,h5,h6{
   font-family: "Concert One";
+  margin: 0px 0px 5px 0px;
+
 }
 
 h1 {
   font-size: 32px;
 
+
 }
 h2 {
   font-style: italic;
-  font-size: 25px;
+  font-size: 28px;
+
 }
 
 h3 {
   font-size: 25px;
+
 
 }
 
