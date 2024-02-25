@@ -25,6 +25,10 @@ div {
 
 }
 
+.schedule {
+  width: 70%;
+}
+
 .links {
   width: 80%;
   border-width:2px;
@@ -93,6 +97,8 @@ h4{
 }
 
 h5{
+  font-size: 25px;
+  font-color: orange;
 
 }
 
